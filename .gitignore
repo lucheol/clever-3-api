@@ -1,0 +1,39 @@
+# Local configuration
+venv/
+.git/
+.env
+ipython_config/
+
+# Compiled Python files
+*.py[cod]
+
+# Installer logs
+pip-log.txt
+
+# Test output
+.pytest_cache/
+.coverage
+html_reports
+
+# Ctags
+tags
+
+# OS-specific files
+.DS_Store
+
+# Emacs temporary files
+*~
+.#*
+\#*\#
+
+# vi temporary files
+*.sw[pon]
+
+# IDE temporary files
+.idea/
+.vscode/
+
+# PyDev
+.pydevproject
+.project
+.settings
