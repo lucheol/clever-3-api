@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import clever
-from clever.models.bad_request import BadRequest  # noqa: E501
-from clever.rest import ApiException
+import clever3
+from clever3.models.bad_request import BadRequest  # noqa: E501
+from clever3.rest import ApiException
 
 
 class TestBadRequest(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestBadRequest(unittest.TestCase):
     def testBadRequest(self):
         """Test BadRequest"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = clever.models.bad_request.BadRequest()  # noqa: E501
+        # model = clever3.models.bad_request.BadRequest()  # noqa: E501
         pass
 
 

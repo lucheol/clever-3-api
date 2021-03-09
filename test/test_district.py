@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import clever
-from clever.models.district import District  # noqa: E501
-from clever.rest import ApiException
+import clever3
+from clever3.models.district import District  # noqa: E501
+from clever3.rest import ApiException
 
 
 class TestDistrict(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestDistrict(unittest.TestCase):
     def testDistrict(self):
         """Test District"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = clever.models.district.District()  # noqa: E501
+        # model = clever3.models.district.District()  # noqa: E501
         pass
 
 

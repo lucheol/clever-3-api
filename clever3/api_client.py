@@ -22,9 +22,9 @@ import tempfile
 import six
 from six.moves.urllib.parse import quote
 
-from clever.configuration import Configuration
-import clever.models
-from clever import rest
+from clever3.configuration import Configuration
+import clever3.models
+from clever3 import rest
 
 
 class ApiClient(object):
@@ -257,7 +257,7 @@ class ApiClient(object):
             if klass in self.NATIVE_TYPES_MAPPING:
                 klass = self.NATIVE_TYPES_MAPPING[klass]
             else:
-                klass = getattr(clever.models, klass)
+                klass = getattr(clever3.models, klass)
 
         if klass in self.PRIMITIVE_TYPES:
             return self.__deserialize_primitive(data, klass)

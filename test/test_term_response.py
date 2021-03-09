@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import clever
-from clever.models.term_response import TermResponse  # noqa: E501
-from clever.rest import ApiException
+import clever3
+from clever3.models.term_response import TermResponse  # noqa: E501
+from clever3.rest import ApiException
 
 
 class TestTermResponse(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestTermResponse(unittest.TestCase):
     def testTermResponse(self):
         """Test TermResponse"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = clever.models.term_response.TermResponse()  # noqa: E501
+        # model = clever3.models.term_response.TermResponse()  # noqa: E501
         pass
 
 

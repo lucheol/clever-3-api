@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import clever
-from clever.models.school import School  # noqa: E501
-from clever.rest import ApiException
+import clever3
+from clever3.models.school import School  # noqa: E501
+from clever3.rest import ApiException
 
 
 class TestSchool(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestSchool(unittest.TestCase):
     def testSchool(self):
         """Test School"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = clever.models.school.School()  # noqa: E501
+        # model = clever3.models.school.School()  # noqa: E501
         pass
 
 

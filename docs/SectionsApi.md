@@ -1,4 +1,4 @@
-# clever.SectionsApi
+# clever3.SectionsApi
 
 All URIs are relative to *https://api.clever.com/v3.0*
 
@@ -24,16 +24,16 @@ Returns the course for a section
 ```python
 from __future__ import print_function
 import time
-import clever
-from clever.rest import ApiException
+import clever3
+from clever3.rest import ApiException
 from pprint import pprint
 
 # Configure OAuth2 access token for authorization: oauth
-configuration = clever.Configuration()
+configuration = clever3.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = clever.SectionsApi(clever.ApiClient(configuration))
+api_instance = clever3.SectionsApi(clever3.ApiClient(configuration))
 id = 'id_example' # str | 
 
 try:
@@ -75,16 +75,16 @@ Returns the district for a section
 ```python
 from __future__ import print_function
 import time
-import clever
-from clever.rest import ApiException
+import clever3
+from clever3.rest import ApiException
 from pprint import pprint
 
 # Configure OAuth2 access token for authorization: oauth
-configuration = clever.Configuration()
+configuration = clever3.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = clever.SectionsApi(clever.ApiClient(configuration))
+api_instance = clever3.SectionsApi(clever3.ApiClient(configuration))
 id = 'id_example' # str | 
 
 try:
@@ -126,16 +126,16 @@ Returns the resources for a section
 ```python
 from __future__ import print_function
 import time
-import clever
-from clever.rest import ApiException
+import clever3
+from clever3.rest import ApiException
 from pprint import pprint
 
 # Configure OAuth2 access token for authorization: oauth
-configuration = clever.Configuration()
+configuration = clever3.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = clever.SectionsApi(clever.ApiClient(configuration))
+api_instance = clever3.SectionsApi(clever3.ApiClient(configuration))
 id = 'id_example' # str | 
 limit = 56 # int |  (optional)
 starting_after = 'starting_after_example' # str |  (optional)
@@ -183,16 +183,16 @@ Returns the school for a section
 ```python
 from __future__ import print_function
 import time
-import clever
-from clever.rest import ApiException
+import clever3
+from clever3.rest import ApiException
 from pprint import pprint
 
 # Configure OAuth2 access token for authorization: oauth
-configuration = clever.Configuration()
+configuration = clever3.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = clever.SectionsApi(clever.ApiClient(configuration))
+api_instance = clever3.SectionsApi(clever3.ApiClient(configuration))
 id = 'id_example' # str | 
 
 try:
@@ -234,16 +234,16 @@ Returns a specific section
 ```python
 from __future__ import print_function
 import time
-import clever
-from clever.rest import ApiException
+import clever3
+from clever3.rest import ApiException
 from pprint import pprint
 
 # Configure OAuth2 access token for authorization: oauth
-configuration = clever.Configuration()
+configuration = clever3.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = clever.SectionsApi(clever.ApiClient(configuration))
+api_instance = clever3.SectionsApi(clever3.ApiClient(configuration))
 id = 'id_example' # str | 
 
 try:
@@ -285,16 +285,16 @@ Returns a list of sections
 ```python
 from __future__ import print_function
 import time
-import clever
-from clever.rest import ApiException
+import clever3
+from clever3.rest import ApiException
 from pprint import pprint
 
 # Configure OAuth2 access token for authorization: oauth
-configuration = clever.Configuration()
+configuration = clever3.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = clever.SectionsApi(clever.ApiClient(configuration))
+api_instance = clever3.SectionsApi(clever3.ApiClient(configuration))
 limit = 56 # int |  (optional)
 starting_after = 'starting_after_example' # str |  (optional)
 ending_before = 'ending_before_example' # str |  (optional)
@@ -342,16 +342,16 @@ Returns the term for a section
 ```python
 from __future__ import print_function
 import time
-import clever
-from clever.rest import ApiException
+import clever3
+from clever3.rest import ApiException
 from pprint import pprint
 
 # Configure OAuth2 access token for authorization: oauth
-configuration = clever.Configuration()
+configuration = clever3.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = clever.SectionsApi(clever.ApiClient(configuration))
+api_instance = clever3.SectionsApi(clever3.ApiClient(configuration))
 id = 'id_example' # str | 
 
 try:
@@ -393,16 +393,16 @@ Returns the student and/or teacher users for a section
 ```python
 from __future__ import print_function
 import time
-import clever
-from clever.rest import ApiException
+import clever3
+from clever3.rest import ApiException
 from pprint import pprint
 
 # Configure OAuth2 access token for authorization: oauth
-configuration = clever.Configuration()
+configuration = clever3.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = clever.SectionsApi(clever.ApiClient(configuration))
+api_instance = clever3.SectionsApi(clever3.ApiClient(configuration))
 id = 'id_example' # str | 
 role = 'role_example' # str |  (optional)
 primary = 'primary_example' # str |  (optional)

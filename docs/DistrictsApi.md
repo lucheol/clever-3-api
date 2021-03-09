@@ -1,4 +1,4 @@
-# clever.DistrictsApi
+# clever3.DistrictsApi
 
 All URIs are relative to *https://api.clever.com/v3.0*
 
@@ -18,16 +18,16 @@ Returns a specific district
 ```python
 from __future__ import print_function
 import time
-import clever
-from clever.rest import ApiException
+import clever3
+from clever3.rest import ApiException
 from pprint import pprint
 
 # Configure OAuth2 access token for authorization: oauth
-configuration = clever.Configuration()
+configuration = clever3.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = clever.DistrictsApi(clever.ApiClient(configuration))
+api_instance = clever3.DistrictsApi(clever3.ApiClient(configuration))
 id = 'id_example' # str | 
 
 try:
@@ -69,16 +69,16 @@ Returns a list of districts
 ```python
 from __future__ import print_function
 import time
-import clever
-from clever.rest import ApiException
+import clever3
+from clever3.rest import ApiException
 from pprint import pprint
 
 # Configure OAuth2 access token for authorization: oauth
-configuration = clever.Configuration()
+configuration = clever3.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = clever.DistrictsApi(clever.ApiClient(configuration))
+api_instance = clever3.DistrictsApi(clever3.ApiClient(configuration))
 count = 'count_example' # str |  (optional)
 
 try:

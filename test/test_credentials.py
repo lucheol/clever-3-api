@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import clever
-from clever.models.credentials import Credentials  # noqa: E501
-from clever.rest import ApiException
+import clever3
+from clever3.models.credentials import Credentials  # noqa: E501
+from clever3.rest import ApiException
 
 
 class TestCredentials(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestCredentials(unittest.TestCase):
     def testCredentials(self):
         """Test Credentials"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = clever.models.credentials.Credentials()  # noqa: E501
+        # model = clever3.models.credentials.Credentials()  # noqa: E501
         pass
 
 

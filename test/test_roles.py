@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import clever
-from clever.models.roles import Roles  # noqa: E501
-from clever.rest import ApiException
+import clever3
+from clever3.models.roles import Roles  # noqa: E501
+from clever3.rest import ApiException
 
 
 class TestRoles(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestRoles(unittest.TestCase):
     def testRoles(self):
         """Test Roles"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = clever.models.roles.Roles()  # noqa: E501
+        # model = clever3.models.roles.Roles()  # noqa: E501
         pass
 
 

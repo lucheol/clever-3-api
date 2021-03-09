@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import clever
-from clever.api.terms_api import TermsApi  # noqa: E501
-from clever.rest import ApiException
+import clever3
+from clever3.api.terms_api import TermsApi  # noqa: E501
+from clever3.rest import ApiException
 
 
 class TestTermsApi(unittest.TestCase):
