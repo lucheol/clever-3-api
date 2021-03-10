@@ -40,6 +40,21 @@ Then import the package:
 import clever3
 ```
 
+## Updating the Library
+
+Using macOS, it's easy to get `swagger-codegen` running. We just need to use brew to install lib and its dependency.
+The command is `brew install swagger-codegen`.  After the installation is done, we can clone the clever swagger definition and just run the code to generate or update the python SDK.
+
+1. Clone the Clever Definition for the Clever API: https://github.com/Clever/swagger-api
+2. Run this command in the `swagger-api` repo
+
+```
+swagger-codegen generate -i v3.0.yml -l python -DpackageName=clever3 --git-repo-id=clever-api-python --git-user-id=newsela -o PATH_TO_THIS_REPO
+```
+
+3. Commit and push the changes
+
+
 ## Getting Started
 
 Please follow the [installation procedure](#installation--usage) and then run the following:
