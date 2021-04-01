@@ -729,7 +729,6 @@ class SectionsApi(object):
         :param async_req bool
         :param str id: (required)
         :param str role:
-        :param str primary:
         :param int limit:
         :param str starting_after:
         :param str ending_before:
@@ -756,7 +755,6 @@ class SectionsApi(object):
         :param async_req bool
         :param str id: (required)
         :param str role:
-        :param str primary:
         :param int limit:
         :param str starting_after:
         :param str ending_before:
@@ -765,7 +763,7 @@ class SectionsApi(object):
                  returns the request thread.
         """
 
-        all_params = ['id', 'role', 'primary', 'limit', 'starting_after', 'ending_before']  # noqa: E501
+        all_params = ['id', 'role', 'limit', 'starting_after', 'ending_before']  # noqa: E501
         all_params.append('async_req')
         all_params.append('_return_http_data_only')
         all_params.append('_preload_content')
@@ -794,8 +792,6 @@ class SectionsApi(object):
         query_params = []
         if 'role' in params:
             query_params.append(('role', params['role']))  # noqa: E501
-        if 'primary' in params:
-            query_params.append(('primary', params['primary']))  # noqa: E501
         if 'limit' in params:
             query_params.append(('limit', params['limit']))  # noqa: E501
         if 'starting_after' in params:

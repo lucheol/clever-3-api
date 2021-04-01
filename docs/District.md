@@ -3,11 +3,11 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**district_contact** | **str** |  | [optional] 
+**district_contact** | [**DistrictContact**](DistrictContact.md) |  | [optional] 
 **error** | **str** |  | [optional] 
 **id** | **str** |  | [optional] 
 **last_sync** | **str** |  | [optional] 
-**launch_date** | **str** |  | [optional] 
+**launch_date** | **date** |  | [optional] 
 **login_methods** | **list[str]** |  | [optional] 
 **mdr_number** | **str** |  | [optional] 
 **name** | **str** |  | [optional] 

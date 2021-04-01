@@ -383,7 +383,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **get_users_for_section**
-> UsersResponse get_users_for_section(id, role=role, primary=primary, limit=limit, starting_after=starting_after, ending_before=ending_before)
+> UsersResponse get_users_for_section(id, role=role, limit=limit, starting_after=starting_after, ending_before=ending_before)
 
 
 
@@ -405,13 +405,12 @@ configuration.access_token = 'YOUR_ACCESS_TOKEN'
 api_instance = clever3.SectionsApi(clever3.ApiClient(configuration))
 id = 'id_example' # str | 
 role = 'role_example' # str |  (optional)
-primary = 'primary_example' # str |  (optional)
 limit = 56 # int |  (optional)
 starting_after = 'starting_after_example' # str |  (optional)
 ending_before = 'ending_before_example' # str |  (optional)
 
 try:
-    api_response = api_instance.get_users_for_section(id, role=role, primary=primary, limit=limit, starting_after=starting_after, ending_before=ending_before)
+    api_response = api_instance.get_users_for_section(id, role=role, limit=limit, starting_after=starting_after, ending_before=ending_before)
     pprint(api_response)
 except ApiException as e:
     print("Exception when calling SectionsApi->get_users_for_section: %s\n" % e)
@@ -423,7 +422,6 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **str**|  | 
  **role** | **str**|  | [optional] 
- **primary** | **str**|  | [optional] 
  **limit** | **int**|  | [optional] 
  **starting_after** | **str**|  | [optional] 
  **ending_before** | **str**|  | [optional] 

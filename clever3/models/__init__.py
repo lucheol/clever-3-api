@@ -22,6 +22,7 @@ from clever3.models.courses_response import CoursesResponse
 from clever3.models.credentials import Credentials
 from clever3.models.district import District
 from clever3.models.district_admin import DistrictAdmin
+from clever3.models.district_contact import DistrictContact
 from clever3.models.district_response import DistrictResponse
 from clever3.models.districts_response import DistrictsResponse
 from clever3.models.internal_error import InternalError

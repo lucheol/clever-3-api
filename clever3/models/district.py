@@ -28,11 +28,11 @@ class District(object):
                             and the value is json key in definition.
     """
     swagger_types = {
-        'district_contact': 'str',
+        'district_contact': 'DistrictContact',
         'error': 'str',
         'id': 'str',
         'last_sync': 'str',
-        'launch_date': 'str',
+        'launch_date': 'date',
         'login_methods': 'list[str]',
         'mdr_number': 'str',
         'name': 'str',
@@ -113,7 +113,7 @@ class District(object):
 
 
         :return: The district_contact of this District.  # noqa: E501
-        :rtype: str
+        :rtype: DistrictContact
         """
         return self._district_contact
 
@@ -123,7 +123,7 @@ class District(object):
 
 
         :param district_contact: The district_contact of this District.  # noqa: E501
-        :type: str
+        :type: DistrictContact
         """
 
         self._district_contact = district_contact
@@ -197,7 +197,7 @@ class District(object):
 
 
         :return: The launch_date of this District.  # noqa: E501
-        :rtype: str
+        :rtype: date
         """
         return self._launch_date
 
@@ -207,7 +207,7 @@ class District(object):
 
 
         :param launch_date: The launch_date of this District.  # noqa: E501
-        :type: str
+        :type: date
         """
 
         self._launch_date = launch_date

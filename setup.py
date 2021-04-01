@@ -30,7 +30,6 @@ setup(
     author_email="",
     url="",
     keywords=["Swagger", "Data API"],
-    setup_requires=['wheel'],
     install_requires=REQUIRES,
     packages=find_packages(),
     include_package_data=True,
